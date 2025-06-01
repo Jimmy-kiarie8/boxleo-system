@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.table-bordered {
+    border: 1px solid #000
+}
+
+.table-bordered td,
+.table-bordered th{
+    border-right: 1px solid #000;
+}
+
+.table-bordered thead td,
+.table-bordered thead th {
+    border-bottom-width: 2px
+}
+
+address {
+    font-style: normal;
+    line-height: inherit
+}
+
+.font-weight-bold {
+    font-weight: 700 !important
+}
+thead {
+    border-bottom: 1px solid #000;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+.table .thead-light th {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bolder;
+    background-color: #e9ecef;
+    border-color: #000;
+}
+th, td, span, h1, p {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bolder;
+}
+
+address {
+    font-weight: bolder;
+    font-size: 14px;
+}

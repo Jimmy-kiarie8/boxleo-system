@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Transfer type",
+    "value": "",
+    "model": "transfer_type",
+    "type": "select",
+    "display": true,
+    "table_display": true,
+    "col": 6,
+    "items": [
+      { "label": "Warehouse to Warehouse", "value": "warehouse" },
+      { "label": "Merchant to Merchant", "value": "merchant" },
+      { "label": "Bin to Bin", "value": "bin" }
+    ]
+  },
+  {
+    "label": "Merchant",
+    "value": "",
+    "model": "seller_id",
+    "type": "select",
+    "display": true,
+    "table_display": true,
+    "col": 6,
+    "items": []
+  },
+  {
+    "label": "Product",
+    "value": "",
+    "model": "product_id",
+    "type": "select",
+    "display": true,
+    "table_display": true,
+    "col": 6,
+    "items": []
+  },
+  {
+    "label": "From Warehouse",
+    "value": "",
+    "model": "from_warehouse_id",
+    "type": "text",
+    "display": true,
+    "table_display": true,
+    "col": 6,
+    "items": []
+  },
+  {
+    "label": "To warehouse",
+    "value": "",
+    "model": "to_warehouse_id",
+    "type": "text",
+    "display": true,
+    "table_display": true,
+    "col": 6,
+    "items": []
+  },
+  {
+    "label": "approved_by",
+    "value": "",
+    "model": "approved_by",
+    "type": "text",
+    "display": false,
+    "table_display": false,
+    "col": 6,
+    "items": []
+  },
+  {
+    "label": "Quantity",
+    "value": "",
+    "model": "quantity",
+    "type": "text",
+    "display": true,
+    "table_display": true,
+    "col": 6,
+    "items": []
+  },
+  {
+    "label": "Status",
+    "value": "",
+    "model": "status",
+    "type": "text",
+    "display": false,
+    "table_display": true,
+    "col": 6,
+    "items": []
+  }
+]

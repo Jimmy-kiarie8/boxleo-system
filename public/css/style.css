@@ -1,0 +1,56 @@
+.call-to-action-hosting {
+    padding: 130px 0 140px;
+    background-image: url(../images/call/call-to-action.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:hover {
+    /* color: #ffffff8c !important; */
+    text-decoration: none !important;
+}
+
+.chip {
+    background: #c8cacc;
+    padding: 0px 13px;
+    border-radius: 10px;
+    color: #333;
+}
+
+.fa-solid {
+    font-size: 35px !important;
+}
+
+.site-header .header-inner {
+    padding: 0 !important;
+}
+.pix-header-fixed {
+    height: 150px;
+}
+.site-header .site-main-menu li>a {
+    color: #00000096;
+}
+.site-header #home_page .site-main-menu  li>a {
+    color: #fff;
+}
+
+.site-header #home_page .site-main-menu .sub-menu li>a {
+    color: #00000096;
+}
+
+.pix-header-fixed #home_page .site-main-menu  li>a {
+    color: #000;
+}
+
+.site-header #home_page .site-main-menu .sub-menu li>a:hover, .pix-header-fixed #home_page .site-main-menu  li>a:hover {
+    color: #1266ff;
+}
+
+
+
+@media only screen and (max-width: 993px) {
+    .header-inner .site-mobile-logo img {
+        max-height: 233px;
+    }
+}
